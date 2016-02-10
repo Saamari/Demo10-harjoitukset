@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Shop.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Width="800" Height="600"
+    >
+
+    <Grid Background="Aquamarine">
+        <CheckBox x:Name="checkBeer" Content="Beer" HorizontalAlignment="Left" Margin="335,77,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="checkMilk" Content="Milk" HorizontalAlignment="Left" Margin="335,130,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="checkCandy" Content="Candy" HorizontalAlignment="Left" Margin="335,193,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="checkMeat" Content="Meat" HorizontalAlignment="Left" Margin="335,258,0,0" VerticalAlignment="Top" IsChecked="True"/>
+       
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="183,341,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="126" Width="385"/>
+        <Button x:Name="button" Content="Buy" HorizontalAlignment="Left" Margin="183,303,0,0" VerticalAlignment="Top" Background="#33D41F1F" Click="button_Click"/>
+
+
+
+
+    </Grid>
+</Page>
