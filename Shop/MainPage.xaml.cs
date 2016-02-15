@@ -38,11 +38,30 @@ namespace Shop
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            textBox.Text = " ";
             if ((bool) checkBeer.IsChecked)
             
             {
-
+                textBox.Text +=  " " + checkBeer.Content.ToString();
             }
+            if ((bool)checkCandy.IsChecked)
+
+            {
+                textBox.Text += " " + checkCandy.Content.ToString();
+            }
+            if ((bool)checkMilk.IsChecked)
+
+            {
+                textBox.Text += " " + checkMilk.Content.ToString();
+            }
+
+            if ((bool)checkMeat.IsChecked)
+
+            {
+                textBox.Text += " " + checkMeat.Content.ToString();
+            }
+
+            
         }
     }
 }
